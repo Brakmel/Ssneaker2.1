@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.contenedor_bienvenidad{
+    background-color: rgba(124, 124, 124, 0.117);
+    text-align: center;
+}
+
+h4{
+    color: rgb(67, 68, 70);
+    padding: 5px;
+}
+
+img{
+    width: 90px;
+    border-radius: 10px;
+}
+
+
+hr{
+    border-top: 10px dotted #8c8b8b;
+}
+.contenedor_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedor_navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav{
+    padding: 15px;
+    background-color: rgba(94, 92, 92, 0.117);   
+}
+
+.btn{
+    margin: 10px;
+}
+
+
+
+main{
+    width: 100%;
+    height: 700px;
+}
+
+main{
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer{
+    padding:0%;
+    background-color: rgba(23, 22, 22, 0.117);   
+}
+
+.empresa{
+    cursor: pointer;
+    padding-top: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+i{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.caja_redesSociales{
+    
+ align-items: center;
+ display: flex;
+ justify-content: center;   
+}
+
+i:hover{
+    transform: rotate(120deg);
+}
+
+.contenedorcopy{
+    padding-bottom: 20px;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+background-color: #e4e4e4;
+}
+
+.formulario{
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-left: 500px;
+    background-color: rgba(189, 189, 189, 0.31);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+
+
+input{
+    padding: 2px;
+    width: 200px;
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 4px;
+    background-color: rgba(124, 124, 124, 0.117);
+}
+
+
+button{
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(11, 203, 168);
+}
+
